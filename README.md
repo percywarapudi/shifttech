@@ -20,3 +20,6 @@ Please read this file to undestand how the assesment works
 3. Credit Card validation service
     I'm using an API called binlist(https://lookup.binlist.net) to validate the provided credit card number details. 
     The API returns the country of origin, issuing bank, scheme name(i.e VISA,MASTER CARD etc) information.
+
+4. Postman and testing the endpoints
+    In order to test the API endpoints, a Postman Collection with a link(https://www.getpostman.com/collections/29563129afcc2d485208) can be used. This link is made public and should be accessible
