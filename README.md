@@ -13,20 +13,20 @@ Please read this file to undestand how the assessment works
     <b>Step 2 : Running the application</b><br/>
     
         Option A: Run the pre-compiled jar<br/>
-            Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
+            java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
-        Option B: Compile the project with Maven(maven must be installed on your machine)<br/>
-            Import the project you IDE of choice(IntelliJ,Eclipse, STS)<br/>
-            Build as Maven project using provided functionality in the IDE<br/>
+        Option B: Compile the project with Maven(maven must be installed on your machine)
+            Import the project you IDE of choice(IntelliJ,Eclipse, STS)
+            Build as Maven project using provided functionality in the IDE
             
 
-        Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
+            java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
-        Option C: Build the project using command line(maven must be installed on your machine)<br/>
-            a. Navigate to base path of the project after cloning it<br/>
-            b. run command mvn clean install<br/>
+        Option C: Build the project using command line(maven must be installed on your machine)
+            a. Navigate to base path of the project after cloning it
+            b. run command mvn clean install
 
-            Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
+            java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
         Once the application has started(should take no more than 5secs), you are ready to make requests using Postman
 
