@@ -36,3 +36,6 @@ Please read this file to undestand how the assessment works
 
 4. <b>Postman and testing the endpoints</b><br/>
     In order to test the API endpoints, a Postman Collection project is provided(<b>Shifttech.postman_collection.json</b>), alternatively a       link(https://www.getpostman.com/collections/29563129afcc2d485208) can be used. This link is made public and should be accessible
+    
+5. <b>Generating credit cards<br/>
+    You can generate credit cards from different countries using this generator https://www.bincodes.com/bank-creditcard-generator/
