@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "859bdcd1-d194-45ca-8ca3-10acd20f26f8",
+		"name": "Shifttech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Credit Card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/addcard/4578965049556664",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"addcard",
+						"4578965049556664"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Cards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/allcards",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allcards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Process Bulk Cards",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bulkprocesscards?credit_cards=5414122474289584,5414122474289583,5414122474289585,5414122474289579,5414122474289580",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bulkprocesscards"
+					],
+					"query": [
+						{
+							"key": "credit_cards",
+							"value": "5414122474289584,5414122474289583,5414122474289585,5414122474289579,5414122474289580"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
