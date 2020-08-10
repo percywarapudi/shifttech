@@ -12,7 +12,7 @@ Please read this file to undestand how the assessment works
     
     <b>Step 2 : Running the application</b><br/>
     
-        Option A: Run the pre-compiled jar<br/>
+        Option A: Run the pre-compiled jar
             java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
         Option B: Compile the project with Maven(maven must be installed on your machine)
