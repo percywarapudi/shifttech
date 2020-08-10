@@ -11,23 +11,22 @@ Please read this file to undestand how the assessment works
     files will be used it has the following banned countries(NG,SD,IR,SS)
     
     <b>Step 2 : Running the application</b><br/>
-        Option A: Run the pre-compiled jar<br/>
+            Option A: Run the pre-compiled jar<br/>
+            Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
 
-         Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
+            Option B: Compile the project with Maven(maven must be installed on your machine)<br/>
+            Import the project you IDE of choice(IntelliJ,Eclipse, STS)<br/>
+            Build as Maven project using provided functionality in the IDE<br/>
 
-        Option B: Compile the project with Maven(maven must be installed on your machine)<br/>
-        Import the project you IDE of choice(IntelliJ,Eclipse, STS)<br/>
-        Build as Maven project using provided functionality in the IDE<br/>
+            Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
 
-        Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
+            Option C: Build the project using command line(maven must be installed on your machine)<br/>
+                a. Navigate to base path of the project after cloning it<br/>
+                b. run command mvn clean install<br/>
 
-        Option C: Build the project using command line(maven must be installed on your machine)<br/>
-            a. Navigate to base path of the project after cloning it<br/>
-            b. run command mvn clean install<br/>
+            Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
 
-        Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
-
-        Once the application has started(should take no more than 5secs), you are ready to make requests using Postman
+            Once the application has started(should take no more than 5secs), you are ready to make requests using Postman
 
 2. <b>Banned countries</b><br/>
     The list of banned countries is saved as a comma separated value within <b>application.properties</b> file. 
