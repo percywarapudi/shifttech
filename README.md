@@ -6,7 +6,7 @@ Please read this file to undestand how the assesment works
 
     java -jar 
 
-    Once the application has started(takes no more than 5secs) you are ready to make requests using Postman
+    Once the application has started(takes no more than 5secs), you are ready to make requests using Postman
 
 2. 
 
