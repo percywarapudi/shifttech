@@ -20,7 +20,7 @@ Please read this file to undestand how the assessment works
         b. run command mvn clean install<br/>
         c. <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
 
-    Once the application has started(takes no more than 5secs), you are ready to make requests using Postman
+    Once the application has started(should take no more than 5secs), you are ready to make requests using Postman
 
 2. <b>Banned countries</b><br/>
     The list of banned countries is saved as a comma separated value within <b>application.properties</b> file. 
