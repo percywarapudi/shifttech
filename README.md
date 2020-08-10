@@ -11,18 +11,15 @@ Please read this file to undestand how the assessment works
     files will be used it has the following banned countries(NG,SD,IR,SS)
     
     <b>Step 2 : Running the application</b><br/>
-    
-        Option A: Run the pre-compiled jar
-            java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
-
-        Option B: Compile the project with Maven(maven must be installed on your machine)
+ 
+        Option A: Compile the project with Maven(maven must be installed on your machine)
             Import the project you IDE of choice(IntelliJ,Eclipse, STS)
             Build as Maven project using provided functionality in the IDE
             
 
             java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
-        Option C: Build the project using command line(maven must be installed on your machine)
+        Option B: Build the project using command line(maven must be installed on your machine)
             a. Navigate to base path of the project after cloning it
             b. run command mvn clean install
 
