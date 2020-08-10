@@ -15,7 +15,7 @@ Please read this file to undestand how the assesment works
     The reason being because the country code is more consitent compared to full/official names that could potentially be misplelled, 
     different variations of the name used e.g South Africa vs Republic of South Africa.
     
-    A country codes file (country_codes.csv) is provided within the project for references
+    A country codes file (<b>country_codes.csv</b>) is provided within the project for references
    
 3. Credit card validation service - 
     I'm using an API called binlist(https://lookup.binlist.net) to validate the provided credit card number details. 
