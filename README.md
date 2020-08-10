@@ -5,12 +5,12 @@ Please read this file to undestand how the assessment works
     The application is a SpringBoot Application with an embedded tomcat server, so no need to deploy on standalone server. 
     To start the application execute the following using the options
     
-    Step 1: Update properties file<br/>
+    <b>Step 1: Update properties file</b><br/>
     Please edit the application.properties file (add your own banned countries) on the root folder and 
     move it to {basePath}/shifttech-assessment/target folder. If you don't perform this step, a default properties 
     files will be used it has the following banned countries(NG,SD,IR,SS)
     
-    Step 2 : Running the application<br/>
+    <b>Step 2 : Running the application</b><br/>
     Option A: Run the pre-compiled jar<br/>
     
      Run application: <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b><br/>
