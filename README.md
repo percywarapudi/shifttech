@@ -6,7 +6,7 @@ Please read this file to undestand how the assessment works
     To start the application execute the following using the options
     
     Step 1: Update properties file<br/>
-    Please edit(add your own banned countrie) the application.properties file on the root folder and 
+    Please edit the application.properties file (add your own banned countries) on the root folder and 
     move it to {basePath}/shifttech-assessment/target folder. If you don't perform this stem. 
     A default properties files will be used it has the following banned countries(NG,SD,IR,SS)
     
