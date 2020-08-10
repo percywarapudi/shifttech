@@ -1,7 +1,7 @@
 Please read this file to undestand how the assesment works
 ==========================================================
 
-1. Application details
+1. Application details - 
     The application is a SpringBoot Application with an embedded tomcat server, so no need to deploy on standalone server. 
     To start the application execute the following command
 
@@ -9,7 +9,7 @@ Please read this file to undestand how the assesment works
 
     Once the application has started(takes no more than 5secs), you are ready to make requests using Postman
 
-2. Banned Countries
+2. Banned Countries - 
     The list of banned countries is saved as a comma separated value within application.properties file. 
     The country code of these countries are used instead of the full/official names.
     The reason being because the country code is more consitent compared to full/official names that could potentially be misplelled, 
@@ -17,7 +17,7 @@ Please read this file to undestand how the assesment works
     
     A country codes file (country_codes.csv) is provided within the project for references
    
-3. Credit Card validation service
+3. Credit Card validation service - 
     I'm using an API called binlist(https://lookup.binlist.net) to validate the provided credit card number details. 
     The API returns the country of origin, issuing bank, scheme name(i.e VISA,MASTER CARD etc) information.
 
