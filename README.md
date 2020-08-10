@@ -3,11 +3,22 @@ Please read this file to undestand how the assesment works
 
 1. <b>Application details</b> - 
     The application is a SpringBoot Application with an embedded tomcat server, so no need to deploy on standalone server. 
-    To start the application execute the following command
-
-
+    To start the application execute the following using the options
+     
+    Option A: Use pre-compiled jar
     <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b>
     
+    Option B: Compile the project with Maven(maven must be installed on your machine)
+    Import the project you IDE of choice(IntelliJ,Eclipse, STS)
+    Build as Maven project using provided functionality in the IDE
+    Then
+        <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b>
+
+    
+    Option C: Build the project using command line(maven must be installed on your machine)
+        a. Navigate to base path of the project after cloning it
+        b. run command mvn clean install
+        c. <b>java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar</b>
 
     Once the application has started(takes no more than 5secs), you are ready to make requests using Postman
 
