@@ -35,4 +35,4 @@ Please read this file to undestand how the assessment works
     The API returns the country of origin, issuing bank, scheme name(i.e VISA,MASTER CARD etc) information.
 
 4. <b>Postman and testing the endpoints</b><br/>
-    In order to test the API endpoints, a Postman Collection with a link(https://www.getpostman.com/collections/29563129afcc2d485208) can be used. This link is made public and should be accessible
+    In order to test the API endpoints, a Postman Collection project is provided on this project, alternatively a       link(https://www.getpostman.com/collections/29563129afcc2d485208) can be used. This link is made public and should be accessible
