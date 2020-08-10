@@ -1,4 +1,4 @@
-Please read this file to undestand how the assesment works
+Please read this file to undestand how the assessment works
 ===========================
 
 1. <b>Application details</b><br/>
