@@ -13,7 +13,7 @@ Please read this file to undestand how the assessment works
     <b>Step 2 : Running the application</b><br/>
  
         Option A: Compile the project with Maven(maven must be installed on your machine)
-            Import the project you IDE of choice(IntelliJ,Eclipse, STS)
+            Import the project into an IDE of your choice(IntelliJ,Eclipse, STS)
             Build as Maven project using provided functionality in the IDE
             
 
