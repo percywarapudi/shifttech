@@ -16,13 +16,14 @@ Please read this file to undestand how the assessment works
             Import the project into an IDE of your choice(IntelliJ,Eclipse, STS)
             Build as Maven project using provided functionality in the IDE
             
-
+            Run on the command line:
             java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
         Option B: Build the project using command line(maven must be installed on your machine)
             a. Navigate to base path of the project after cloning it
             b. run command mvn clean install
 
+            Run on the command line:
             java -jar {basePath}/shifttech-assessment/target/shifttech-assessment-0.0.1-SNAPSHOT.jar
 
         Once the application has started(should take no more than 5secs), you are ready to make requests using Postman
